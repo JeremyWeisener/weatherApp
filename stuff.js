@@ -88,7 +88,7 @@ function weatherCallBack(data){
         $('#icon').html("<i class=\"wi wi-day-fog\"></i>");
     }
     else if(weatherCode==800){
-        $('#icon').html("<i class=\"wi wi-wu-clear\"></i>");
+        $('#icon').html("<i class=\"wi wi-forecast-io-clear-day\"></i>");
     }
     else if(800<weatherCode<900){
         $('#icon').html("<i class=\"wi wi-day-cloudy\"></i>");
