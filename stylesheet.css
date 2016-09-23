@@ -1,0 +1,22 @@
+* {
+    text-align:center;
+    color:white;
+    background:black;
+}
+.jumbotron{
+    background:black;
+}
+#toggleTemp{
+    border:none;
+    background:black;
+    color:lightblue;
+    font-size:30px;
+    font-weight:500;
+    line-height:1.1;
+}
+#currentTemp{
+    display:inline;
+}
+.row{
+    height:100%;
+}
