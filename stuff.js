@@ -45,8 +45,7 @@ function CurrentLocation(data) {
       //lat:JSON.stringify(data['lat']),
       lon:JSON.stringify(data['lon']),
 //      units:'metric',
-      APPID:'e66fd596c96a5989978718948ab60bfa',
-      dataType: "jsonp"
+      APPID:'e66fd596c96a5989978718948ab60bfa'
       },function(){})
       .done(weatherCallBack)
       .fail(errorHandling);
@@ -152,9 +151,7 @@ $(document).ready(function showPosition() {
     
     
     
-    $.getJSON('http://ip-api.com/json/?callback=?',{
-          dataType: "jsonp"}
-              function(data){})
+    $.getJSON('http://ip-api.com/json/?callback=?',function(data){})
         .done(CurrentLocation)
         .fail(errorHandling);
         
